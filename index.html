@@ -9,6 +9,13 @@
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
 </head>
 
+<script>
+window.addEventListener('beforeunload', (event) => {
+    event.preventDefault();
+    event.returnValue = '';
+});
+</script>
+
 <body>
     <textarea spellcheck="false"></textarea>
 </body>
