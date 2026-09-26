@@ -9,12 +9,8 @@
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
 </head>
 
-<script>
-window.addEventListener('beforeunload', (event) => {
-    event.preventDefault();
-    event.returnValue = '';
-});
-</script>
+<script src="before_unload.js"></script>
+<script src="insert_tab.js"></script>
 
 <body>
     <textarea spellcheck="false"></textarea>
